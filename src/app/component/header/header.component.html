@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;">Flipkart</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="search products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+
+
+        </div>
+        <button routerLink="cart" class="btn btn-primary">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
